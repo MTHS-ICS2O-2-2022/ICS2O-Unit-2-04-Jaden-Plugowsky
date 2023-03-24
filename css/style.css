@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: lightcoral;
+  background-color: lightgreen;
 }
 
 a {
@@ -22,9 +22,9 @@ a {
 
 .right-image {
   height: auto;
-  width: 250px;
+  width: 600px;
   float: right;
-  margin-right: 150px;
+  margin-right: -50px
 }
 
 .mdl-content {
@@ -33,7 +33,7 @@ a {
 
 .mdl-layout__content {
   margin-left: 20px;
-  color: white;
+  color: black;
 }
 
 .mdl-layout__header-row {
@@ -41,7 +41,7 @@ a {
 }
 
 .mdl-layout-title {
-  color: white;
+  color: black;
 }
 
 #button-one {
@@ -51,4 +51,8 @@ a {
 
 #header-fix {
   font-size: 50px;
+}
+
+#answer {
+  font-size: 15px;
 }
