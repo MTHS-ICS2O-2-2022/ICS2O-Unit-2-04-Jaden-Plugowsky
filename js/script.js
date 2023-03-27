@@ -8,10 +8,10 @@
 
 function calculateClicked() {
   //Input through Textfields
-  const base = parseInt(document.getElementById("base").value)
-  const height = parseInt(document.getElementById("height").value)
+  const triBase = parseInt(document.getElementById("triangle-base").value)
+  const triHeight = parseInt(document.getElementById("triangle-height").value)
 
   //Output
   document.getElementById("answer").innerHTML =
-    "The area of this Triangle is: " + (base * height) / 2 + "cm²"
+    "The area of this Triangle is: " + (triBase * triHeight) / 2 + " cm²"
 }
